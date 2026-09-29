@@ -1,6 +1,6 @@
 # Burn TextMate Bundle
 
-This is a TextMate bundle for the [Burn](https://github.com/burnlang/burn) programming language (Burn 2).
+This is a TextMate bundle for the [Burn](https://github.com/burnlang/burn) programming language.
 
 ## Features
 
