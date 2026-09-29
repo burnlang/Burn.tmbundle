@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fun main() {
-    $1
-}$0</string>
+	<string>def enum ${1:Name} { ${2:A}, ${3:B} }$0</string>
 	<key>name</key>
-	<string>Main Function</string>
+	<string>Enum Definition</string>
 	<key>scope</key>
 	<string>source.burn</string>
 	<key>tabTrigger</key>
-	<string>main</string>
+	<string>enum</string>
 	<key>uuid</key>
-	<string>F59E7461-60E3-4F0E-B964-7DA3AD8A9473</string>
+	<string>7D2F4C78-2A6A-4B4D-9E79-9D3F5A7EBC33</string>
 </dict>
 </plist>
