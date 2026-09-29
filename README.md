@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/burnlang/burn/master/assets/logo.svg" alt="Burn logo" width="128">
+</p>
+
 # Burn TextMate Bundle
 
 This is a TextMate bundle for the [Burn](https://github.com/burnlang/burn) programming language.
@@ -41,6 +45,13 @@ TextMate grammars (Sublime Text, Nova, and others). For VS Code use the
 | `import` | import statement |
 
 ### Commands
+
+The commands need the Burn toolchain on your `PATH`:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/burnlang/burn/master/install.sh | sh
+```
+
 
 - `⌘R` - Run the current file
 - `⌃⌘R` - Start the Burn REPL
