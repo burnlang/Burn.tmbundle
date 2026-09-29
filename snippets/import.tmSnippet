@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>content</key>
-    <string>import "${1:./path/to/file.bn}"$0</string>
-    <key>name</key>
-    <string>Import</string>
-    <key>scope</key>
-    <string>source.burn</string>
-    <key>tabTrigger</key>
-    <string>import</string>
-    <key>uuid</key>
-    <string>8A5709A1-E53A-47BE-A6CA-DCF3EF9ABFE0</string>
+	<key>content</key>
+	<string>import "${1:std/date}"$0</string>
+	<key>name</key>
+	<string>Import</string>
+	<key>scope</key>
+	<string>source.burn</string>
+	<key>tabTrigger</key>
+	<string>import</string>
+	<key>uuid</key>
+	<string>8A5709A1-E53A-47BE-A6CA-DCF3EF9ABFE0</string>
 </dict>
 </plist>

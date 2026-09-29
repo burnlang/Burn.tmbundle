@@ -2,33 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>name</key>
-    <string>Burn</string>
-    <key>uuid</key>
-    <string>8934D5FE-E434-48D1-B3F0-53566D46F1AD</string>
-    <key>description</key>
-    <string>Support for the Burn programming language</string>
-    <key>contactName</key>
-    <string>Burnlang Team</string>
-    <key>contactEmailRot13</key>
-    <string>ohea@rknzcyr.pbz</string>
-    <key>mainMenu</key>
-    <dict>
-        <key>items</key>
-        <array>
-            <string>FB67A0C5-0C8A-45AB-BC25-B67BBC9E4E10</string>
-            <string>0C8A6C7C-DCAB-4C6B-BC53-3D3A9EFF234E</string>
-            <string>------------------------------------</string>
-            <string>C63E3F75-5DC2-4095-8B21-D98B5F3B37CD</string>
-            <string>E9321D8C-D0F6-4E97-B1F8-081D9A01C431</string>
-            <string>3BAABF9A-6E61-45B7-B275-7C8FA4961E29</string>
-            <string>8B7D99CF-40FB-4704-BA3D-B58328954FCA</string>
-            <string>8A5709A1-E53A-47BE-A6CA-DCF3EF9ABFE0</string>
-            <string>F59E7461-60E3-4F0E-B964-7DA3AD8A9473</string>
-            <string>22BD7997-0D24-49F3-AF7E-091DAE929F9A</string>
-        </array>
-        <key>submenus</key>
-        <dict/>
-    </dict>
+	<key>name</key>
+	<string>Burn</string>
+	<key>uuid</key>
+	<string>8934D5FE-E434-48D1-B3F0-53566D46F1AD</string>
+	<key>description</key>
+	<string>Support for the Burn programming language</string>
+	<key>contactName</key>
+	<string>Burnlang Team</string>
+	<key>contactEmailRot13</key>
+	<string>ohea@rknzcyr.pbz</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>FB67A0C5-0C8A-45AB-BC25-B67BBC9E4E10</string>
+			<string>0C8A6C7C-DCAB-4C6B-BC53-3D3A9EFF234E</string>
+			<string>------------------------------------</string>
+			<string>C63E3F75-5DC2-4095-8B21-D98B5F3B37CD</string>
+			<string>E9321D8C-D0F6-4E97-B1F8-081D9A01C431</string>
+			<string>3BAABF9A-6E61-45B7-B275-7C8FA4961E29</string>
+			<string>8B7D99CF-40FB-4704-BA3D-B58328954FCA</string>
+			<string>8A5709A1-E53A-47BE-A6CA-DCF3EF9ABFE0</string>
+			<string>F59E7461-60E3-4F0E-B964-7DA3AD8A9473</string>
+			<string>22BD7997-0D24-49F3-AF7E-091DAE929F9A</string>
+			<string>5B0D2A56-0E4E-4F2B-9C57-7B1D3E5C9A11</string>
+			<string>6C1E3B67-1F5F-4A3C-8D68-8C2E4F6DAB22</string>
+			<string>7D2F4C78-2A6A-4B4D-9E79-9D3F5A7EBC33</string>
+			<string>8E3A5D89-3B7B-4C5E-AF8A-AE4A6B8FCD44</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 </dict>
 </plist>

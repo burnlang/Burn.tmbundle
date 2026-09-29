@@ -2,19 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>content</key>
-    <string>if ${1:condition} {
-    ${2:// then}
+	<key>content</key>
+	<string>if (${1:condition}) {
+    $2
 } else {
-    ${3:// else}
+    $3
 }$0</string>
-    <key>name</key>
-    <string>If-Else Statement</string>
-    <key>scope</key>
-    <string>source.burn</string>
-    <key>tabTrigger</key>
-    <string>if</string>
-    <key>uuid</key>
-    <string>8B7D99CF-40FB-4704-BA3D-B58328954FCA</string>
+	<key>name</key>
+	<string>If-Else Statement</string>
+	<key>scope</key>
+	<string>source.burn</string>
+	<key>tabTrigger</key>
+	<string>if</string>
+	<key>uuid</key>
+	<string>8B7D99CF-40FB-4704-BA3D-B58328954FCA</string>
 </dict>
 </plist>

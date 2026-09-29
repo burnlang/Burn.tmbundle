@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fun main() {
-    $1
-}$0</string>
+	<string>async fun ${1:name}(${2}): ${3:int} {
+    $0
+}</string>
 	<key>name</key>
-	<string>Main Function</string>
+	<string>Async Function</string>
 	<key>scope</key>
 	<string>source.burn</string>
 	<key>tabTrigger</key>
-	<string>main</string>
+	<string>async</string>
 	<key>uuid</key>
-	<string>F59E7461-60E3-4F0E-B964-7DA3AD8A9473</string>
+	<string>8E3A5D89-3B7B-4C5E-AF8A-AE4A6B8FCD44</string>
 </dict>
 </plist>
