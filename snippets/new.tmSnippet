@@ -3,20 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def class ${1:Name} {
-    ${2:string} ${3:field}
-
-    fun ${4:method}(): ${5:string} {
-        $0
-    }
-}</string>
+	<string>${1:Name} ${2:name} = new ${1:Name}($0)</string>
 	<key>name</key>
-	<string>Class Definition</string>
+	<string>New Object</string>
 	<key>scope</key>
 	<string>source.burn</string>
 	<key>tabTrigger</key>
-	<string>class</string>
+	<string>new</string>
 	<key>uuid</key>
-	<string>5B0D2A56-0E4E-4F2B-9C57-7B1D3E5C9A11</string>
+	<string>9C2E4F71-3A5B-4D8E-A1F6-2B7C8D9E0F13</string>
 </dict>
 </plist>
