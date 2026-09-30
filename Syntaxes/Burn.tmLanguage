@@ -379,6 +379,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>keyword.operator.null-safe.burn</string>
+					<key>match</key>
+					<string>\?\.|\?\?|!!</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>keyword.operator.comparison.burn</string>
 					<key>match</key>
 					<string>==|!=|&lt;=|&gt;=|&lt;|&gt;</string>
