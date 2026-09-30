@@ -59,4 +59,4 @@ curl -fsSL https://raw.githubusercontent.com/burnlang/burn/master/install.sh | s
 
 ## License
 
-MIT - see [LICENSE](LICENSE).
+GNU General Public License v3.0 - see [LICENSE](LICENSE).
