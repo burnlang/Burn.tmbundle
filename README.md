@@ -8,7 +8,7 @@ This is a TextMate bundle for the [Burn](https://github.com/burnlang/burn) progr
 
 ## Features
 
-- Syntax highlighting for `.bn` files: `def type`, `def class`, `def interface`, `def enum`, type-first
+- Syntax highlighting for `.bn` files: `def type`, `def struct` (also `abstract` and `static`), `def interface`, `def enum`, `new` and `destroy`, type-first
   declarations such as `String name`, string templates `"${expr}"`, nullable types, `async`/`await`, `is`/`as`
 - Snippets for common language constructs
 - Commands for running Burn files and starting the REPL
@@ -33,7 +33,8 @@ TextMate grammars (Sublime Text, Nova, and others). For VS Code use the
 | Trigger | Inserts |
 | --- | --- |
 | `def` | `def type` definition |
-| `class` | `def class` with a field and a method |
+| `struct` | `def struct` with constructor parameters and a method |
+| `new` | create a struct object with `new` |
 | `interface` | `def interface` |
 | `enum` | `def enum` |
 | `fun` | function |

@@ -104,7 +104,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(def)\s+(type|struct|record|interface|trait|class|enum|annotation)\s+([A-Za-z_][A-Za-z0-9_]*)</string>
+					<string>\b(def)\s+(?:(abstract|static)\s+)?(type|struct|record|interface|trait|enum|annotation)\s+([A-Za-z_][A-Za-z0-9_]*)</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
@@ -115,12 +115,51 @@
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.burn</string>
+							<string>storage.modifier.burn</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
+							<string>storage.type.burn</string>
+						</dict>
+						<key>4</key>
+						<dict>
+							<key>name</key>
 							<string>entity.name.type.burn</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(new)\s+([A-Za-z_][A-Za-z0-9_]*)</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.new.burn</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>entity.name.type.burn</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>^\s*(destroy)\s+([A-Za-z_][A-Za-z0-9_]*)\s*(?=\()</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.destroy.burn</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>variable.other.burn</string>
 						</dict>
 					</dict>
 				</dict>
@@ -163,7 +202,7 @@
 					<key>name</key>
 					<string>keyword.declaration.burn</string>
 					<key>match</key>
-					<string>\b(fun|var|const|def|async|static|pub|priv)\b</string>
+					<string>\b(fun|var|const|def|async|static|abstract|pub|priv)\b</string>
 				</dict>
 				<dict>
 					<key>name</key>
