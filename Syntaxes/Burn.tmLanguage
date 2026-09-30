@@ -18,6 +18,10 @@
 		</dict>
 		<dict>
 			<key>include</key>
+			<string>#annotations</string>
+		</dict>
+		<dict>
+			<key>include</key>
 			<string>#definitions</string>
 		</dict>
 		<dict>
@@ -71,13 +75,36 @@
 				</dict>
 			</array>
 		</dict>
+		<key>annotations</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>(@)([A-Za-z_][A-Za-z0-9_]*)</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.annotation.burn</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>storage.type.annotation.burn</string>
+						</dict>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 		<key>definitions</key>
 		<dict>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(def)\s+(type|struct|record|interface|trait|class|enum)\s+([A-Za-z_][A-Za-z0-9_]*)</string>
+					<string>\b(def)\s+(type|struct|record|interface|trait|class|enum|annotation)\s+([A-Za-z_][A-Za-z0-9_]*)</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
