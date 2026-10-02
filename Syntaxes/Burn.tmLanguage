@@ -196,7 +196,7 @@
 					<key>name</key>
 					<string>keyword.control.burn</string>
 					<key>match</key>
-					<string>\b(if|else|while|for|in|return|break|continue|await|import)\b</string>
+					<string>\b(if|else|while|for|in|match|return|break|continue|await|import)\b</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -385,6 +385,24 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>keyword.operator.arrow.burn</string>
+					<key>match</key>
+					<string>=&gt;</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.assignment.burn</string>
+					<key>match</key>
+					<string>&gt;&gt;&gt;=|&lt;&lt;=|&gt;&gt;=|&amp;=|\|=|\^=</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.bitwise.burn</string>
+					<key>match</key>
+					<string>&gt;&gt;&gt;|&lt;&lt;|&gt;&gt;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>keyword.operator.comparison.burn</string>
 					<key>match</key>
 					<string>==|!=|&lt;=|&gt;=|&lt;|&gt;</string>
@@ -394,6 +412,12 @@
 					<string>keyword.operator.logical.burn</string>
 					<key>match</key>
 					<string>&amp;&amp;|\|\||!</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.bitwise.burn</string>
+					<key>match</key>
+					<string>&amp;|\||\^|~</string>
 				</dict>
 				<dict>
 					<key>name</key>

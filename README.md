@@ -42,6 +42,7 @@ TextMate grammars (Sublime Text, Nova, and others). For VS Code use the
 | `main` | main function |
 | `if` | if / else |
 | `for` | `for i in 0..10` loop |
+| `match` | `match` with a value arm and `else` |
 | `while` | while loop |
 | `import` | import statement |
 
