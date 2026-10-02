@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>match ${1:value} {
+    ${2:1} =&gt; ${3:"one"}
+    else =&gt; ${4:"other"}
+}</string>
+	<key>name</key>
+	<string>Match</string>
+	<key>scope</key>
+	<string>source.burn</string>
+	<key>tabTrigger</key>
+	<string>match</string>
+	<key>uuid</key>
+	<string>E0F301E2-8F99-43C8-8740-0EE84C6DB84F</string>
+</dict>
+</plist>
